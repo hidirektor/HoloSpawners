@@ -1,0 +1,46 @@
+error:
+  permission: '&eSandıkSpawner &8&l> &cBunu Yapmak İçiçn Yetkin Yok!'
+  spawner-not-found: '&eSandıkSpawner &8&l> &cBöyle Bir Spawner Bulunamadı!'
+  your-inventory-is-full: '&eSandıkSpawner &8&l> &cEnvanterin Dolu!'
+  player-inventory-is-full: '&eSandıkSpawner &8&l> &b%player% &cAdlı Oyuncunun Envanteri Dolu!'
+  input-number: '&eSandıkSpawner &8&l> &cLütfen Sayı Girin!'
+  player-not-found: '&eSandıkSpawner &8&l> &cOyuncu Bulunamadı!'
+  in-game-command: '&eSandıkSpawner &8&l> &cBu Komut Sadece Oyundayken Aktif Olur!'
+  you-cant-take-this-so-much: '&eSandıkSpawner &8&l> &cBu Kadar Fazla Alamazsın!'
+  you-cant-add-yourself: '&eSandıkSpawner &8&l> &cKendini Ekleyemezsin!'
+  player-already-added: '&eSandıkSpawner &8&l> &b%player% &cAdlı Oyuncu Zaten Ekli!'
+  not-enough-item: '&eSandıkSpawner &8&l> &cSeviye Yükseltmek İçin Yeterli Eşyan Yok!'
+
+general:
+  you-gave-a-spawner: '&eSandıkSpawner &8&l> &b%player% &eAdlı Oyuncuya Spawner Verdin!'
+  you-took-a-spawner: '&eSandıkSpawner &8&l> &b%spawner% &eSpawnerından Aldın!'
+  you-place-a-chest-spawner: '&eSandıkSpawner &8&l> &eYerleştirilen Spawner: &b%spawner%'
+  you-break-a-chest-spawner: '&eSandıkSpawner &8&l> &eKırılan Spawner: &b%spawner%'
+  player-added: '&eSandıkSpawner &8&l> &eEklenen Oyuncu: &b%player%'
+  reload-complete: '&eSandıkSpawner &8&l> &aSpawner Eklentisi Yenilendi!'
+
+command:
+  reload: 'reload'
+  chest-spawner:
+    settings: 'ayarlar'
+    give: 'ver'
+    distribute: 'dagit'
+
+chest-status:
+  in: 'İç'
+  out: 'Dış'
+  storage: 'Depo'
+
+menu-status:
+  online: 'Çevrim içi'
+  offline: 'Çevrim dışı'
+
+commands:
+  - '&c&l&m------------&8[&eSandıkSpawner&8]&c&l&m------------'
+  - '&r   '
+  - '&6/sandiksp ver &8<&bOyuncu&8> <&bSandık-İsmi&8> <&bMiktar&8> &a&l> &eOyuncuya Sandık Spawner Verir!'
+  - '&6/sandiksp dagit &8<&bSandık-İsmi&8> &8<&bMiktar&8> &a&l> &eTüm Oyunculara Sandık Spawner Verir!'
+  - '&6/sandiksp ayarlar &a&l> &eGenel Ayarlar Menüsünü Açar.'
+  - '&6/sandiksp reload &a&l> &eEklentiyi Yeniler'
+  - '&r   '
+  - '&c&l&m------------&8[&eSandıkSpawner&8]&c&l&m------------'

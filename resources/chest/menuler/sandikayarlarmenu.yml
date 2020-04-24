@@ -1,0 +1,57 @@
+title: '%spawner-name% Spawner (%spawner-level%. Seviye)'
+size: 27
+
+panes:
+  main-pane:
+    x: 0
+    y: 0
+    height: 3
+    length: 9
+
+elements:
+  ganimet-deposu-element:
+    x: 2
+    y: 1
+    material: CHEST
+    display-name: '&5Ganimet Deposu'
+    lore:
+      - ''
+      - '&7Spawnerın düşmesi depoda ise'
+      - '&7ganimetler burada birikir.'
+      - ''
+      - '&eAçmak için tıklayın!'
+  level-element:
+    x: 4
+    y: 1
+    material: HOPPER
+    display-name: '&5Seviye Yükselt'
+    lore:
+      - ''
+      - '&7Spawnerınızı geliştirerek daha çok'
+      - '&5%spawner-name% &7oluşturmasını sağlayabilirsiniz.'
+      - ''
+      - '&7·Ücret: &e1x %spawner-name% &fSpawner'
+      - ''
+      - '&eSpawnerınızı geliştirmek için tıklayın!'
+  cant-level-element:
+    x: 4
+    y: 1
+    material: HOPPER
+    display-name: '&5Geliştirilemez'
+    lore:
+      - ''
+      - '&cSpawnerınız son seviyeye'
+      - '&culaştığı için geliştiremezsiniz!'
+  esya-dusmesi-element:
+    x: 6
+    y: 1
+    material: SUNFLOWER
+    display-name: '&bEşya Düşmesi'
+    lore:
+      - ''
+      - '&7Spawnerın ganimetleri nereye'
+      - '&7atacağına karar verebilirsin.'
+      - ''
+      - '&7· Durum: &a%durum%'
+      - ''
+      - '&eDeğiştirmek için tıklayın!'

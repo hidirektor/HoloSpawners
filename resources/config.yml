@@ -1,0 +1,57 @@
+# en, tr
+language: 'tr'
+
+natural-spawner:
+  drop-exp: false
+  combined-enabled: true
+  combined-radius: 3
+  active-statu: '&bAktif'
+  deactive-statu: '&cKapalı'
+  combined-hologram:
+    - '%spawner-name% (x%count%)'
+    - 'Spawner Owner: %spawner-owner%'
+    - 'Spawner Type: %spawner-id%'
+    - 'Spawner Drop: %spawner-drop-type%'
+  hologram:
+    - '%spawner-name%'
+    - 'Spawner Owner: %spawner-owner%'
+    - 'Spawner Type: %spawner-id%'
+    - 'Spawner Drop: %spawner-drop-type%'
+  hologram-height: 1
+  spawner-breaker-active: true
+  spawner-breakers:
+    diamond_pickaxe:
+      material: DIAMOND_PICKAXE
+      display-name: '&aSpawner Breaker'
+      lore:
+        - '&eSpawner Breaker'
+    iron_pickaxe:
+      material: IRON_PICKAXE
+      display-name: '&aIron Spawner Breaker'
+      lore:
+        - '&eAnother spawner breaker!'
+
+chest-spawner:
+  sign:
+    - '&b%chest-name%'
+    - '%chest-owner%'
+    - '&a%chest-level%. Seviye'
+    - '&fDurum: %durum%'
+  chest-item:
+    material: CHEST
+    display-name: '&a%chest-name% &fSpawner &e(%chest-level%. Seviye)'
+  ganimet-anvil-alis: 'Miktarı yaz'
+  ganimet-anvil-satis: 'Miktarı yaz'
+  yetkili-anvil: 'Oyuncuyu yaz'
+  book:
+    - '     &lUYARI     '
+    - 'Ganimetleri satmak'
+    - 'istiyor musunuz?'
+    - ''
+    - 'Satılacak Miktar (&a%amount%&0)'
+    - ''
+    - 'Kazanılıcak Miktar: (&a%money%&0)'
+    - ''
+    - '%yesno%'
+  clickyes: '   &a&l[✔]   '
+  clickno: '   &c&l[×]   '

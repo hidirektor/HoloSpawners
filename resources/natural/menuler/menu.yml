@@ -1,0 +1,22 @@
+title: '%spawner-name% Menu'
+size: 9
+
+panes:
+  main-pane:
+    x: 0
+    y: 0
+    height: 1
+    length: 9
+
+elements:
+  hologram-element:
+    x: 4
+    y: 0
+    material: ARMOR_STAND
+    display-name: '&6Hologram'
+    lore:
+      - ''
+      - '&7Spawner hologramını açmak ve ya'
+      - '&7kapatmak için tıkla.'
+      - ''
+      - '&aHologram: %statu%'

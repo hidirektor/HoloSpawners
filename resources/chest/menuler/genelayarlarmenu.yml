@@ -1,0 +1,49 @@
+title: 'Spawner Ayarları'
+size: 27
+
+panes:
+  main-pane:
+    x: 0
+    y: 0
+    height: 3
+    length: 9
+
+elements:
+  ganimet-deposu-element:
+    x: 2
+    y: 1
+    material: CHEST
+    display-name: '&5Ganimet Deposu'
+    lore:
+      - ''
+      - '&7Spawnerın düşmesi depoda ise'
+      - '&7ganimetler burada birikir.'
+      - ''
+      - '&eAçmak için tıklayın!'
+  esya-dusmesi-element:
+    x: 4
+    y: 1
+    material: SUNFLOWER
+    display-name: '&bEşya Düşmesi'
+    lore:
+      - ''
+      - '&7Spawnerın ganimetleri nereye'
+      - '&7atacağına karar verebilirsin.'
+      - ''
+      - '&7· Durum: &a%durum%'
+      - ''
+      - '&eDeğiştirmek için tıklayın!'
+  oyuncu-ekle-element:
+    x: 6
+    y: 1
+    material: PLAYER_HEAD
+    display-name: '&aOyuncu Ekle'
+    lore:
+      - ''
+      - '&7Spawnerlarına yeni bir'
+      - '&7yetkili ekleyebilirsin ve ya'
+      - '&7eklediğin yetkiyi çıkarabilirsin'
+      - ''
+      - '&7· Yetkililer: &a%yetkililer%'
+      - ''
+      - '&eAçmak için tıklayın!'

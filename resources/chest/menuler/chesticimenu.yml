@@ -1,0 +1,55 @@
+title: '%spawner-name% Spawner (%spawner-level%. Seviye)'
+size: 36
+
+panes:
+  main-pane:
+    x: 0
+    y: 0
+    height: 3
+    length: 9
+  elements-pane:
+    x: 0
+    y: 3
+    height: 1
+    length: 9
+
+elements:
+  spawner-settings-element:
+    x: 0
+    y: 0
+    material: CHEST
+    display-name: '&bSpawner Ayarları'
+    lore:
+      - ''
+      - '&7Açtığınız spawnera özel'
+      - '&7ayar yapabilirsin.'
+      - ''
+      - '&aAçmak için tıklayın!'
+  general-settings-element:
+    x: 4
+    y: 0
+    material: ENDER_CHEST
+    display-name: '&5Genel Ayarlar'
+    lore:
+      - ''
+      - '&7Sahip olduğunuz tüm'
+      - '&7spawnerların ayarını değiştirir'
+      - ''
+      - '&7Açmak için tıklayın!'
+  sell-element:
+    x: 8
+    y: 0
+    material: FIRE_CHARGE
+    display-name: '&aKazanılan Ganimet'
+    lore:
+      - ''
+      - '&7Açtığın spawnerın içinde'
+      - '&7bulunan ganimetleri satabilirsin'
+      - ''
+      - '&7·Durum: %durum%'
+      - '&7·Kazanılacak Para: &a%money%$'
+      - ''
+      - '&eSatmak için tıklayın'
+
+sell-element-durum-1: '&cBoş'
+sell-element-durum-2: '&a%amount% %spawner-name%'

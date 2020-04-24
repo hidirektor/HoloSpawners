@@ -1,0 +1,46 @@
+error:
+  permission: '&eSandıkSpawner &8&l> &cYou Have Not Permission to Do That!'
+  spawner-not-found: '&eSandıkSpawner &8&l> &cSpawner Not Found!'
+  your-inventory-is-full: '&eSandıkSpawner &8&l> &cYour Inventory is Full!'
+  player-inventory-is-full: '&eSandıkSpawner &8&l> &b%player%''&cs Inventory is Full!'
+  input-number: '&eSandıkSpawner &8&l> &cInput a Number!'
+  player-not-found: '&eSandıkSpawner &8&l> &cPlayer Not Found!'
+  in-game-command: '&eSandıkSpawner &8&l> &cYou Have to Use This Command in Game!'
+  you-cant-take-this-so-much: '&eSandıkSpawner &8&l> &cYou Can''t Take This So Much!'
+  you-cant-add-yourself: '&eSandıkSpawner &8&l> &cYou Can''t Add Yourself!'
+  player-already-added: '&eSandıkSpawner &8&l> &b%player% &cAlready Added Your Spawner.'
+  not-enough-item: '&eSandıkSpawner &8&l> &cYou Don''t Have Enough Item to Level UP!'
+
+general:
+  you-gave-a-spawner: '&eSandıkSpawner &8&l> &eYou Gave a Spawner to &b%player%'
+  you-took-a-spawner: '&eSandıkSpawner &8&l> &eYou Took a &b%spawner% &eSpawner!'
+  you-place-a-chest-spawner: '&eSandıkSpawner &8&l> &ePlaced Spawner: &b%spawner%'
+  you-break-a-chest-spawner: '&eSandıkSpawner &8&l> &eBroken Spawner: &b%spawner%'
+  player-added: '&eSandıkSpawner &8&l> &eAdded Player: &b%player%'
+  reload-complete: '&eSandıkSpawner &8&l> &eReload Complete!'
+
+command:
+  reload: 'reload'
+  chest-spawner:
+    settings: 'ayarlar'
+    give: 'ver'
+    distribute: 'dagit'
+
+chest-status:
+  in: 'Inside'
+  out: 'Outside'
+  storage: 'Storage'
+
+menu-status:
+  online: 'Online'
+  offline: 'Offline'
+
+commands:
+  - '&c&l&m------------&8[&eSandıkSpawner&8]&c&l&m------------'
+  - '&r   '
+  - '&6/sandiksp ver &8<&bOyuncu&8> <&bSandık-İsmi&8> <&bMiktar&8> &a&l> &eGives spawner to the player!'
+  - '&6/sandiksp dagit &8<&bSandık-İsmi&8> &8<&bMiktar&8> &a&l> &eGives chest spawner to online players.!'
+  - '&6/sandiksp ayarlar &a&l> &eOpens general settings menu.'
+  - '&6/sandiksp reload &a&l> &eReload plugin'
+  - '&r   '
+  - '&c&l&m------------&8[&eSandıkSpawner&8]&c&l&m------------'

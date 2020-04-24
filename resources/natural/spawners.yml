@@ -1,0 +1,179 @@
+zombie:
+  name: '&cZombie &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Zombie &eSpawner'
+  entity-type: ZOMBIE
+
+iron:
+  name: '&cDemir &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Iron &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: IRON_INGOT
+
+iron_block:
+  name: '&cDemir Block &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Iron Block &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: IRON_BLOCK
+
+diamond:
+  name: '&cElmas &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Diamond &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: DIAMOND
+
+diamond_block:
+  name: '&cElmas Block &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Diamond Block &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: DIAMOND_BLOCK
+
+gold:
+  name: '&cAltın &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Gold &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: GOLD_INGOT
+
+gold_block:
+  name: '&cAltın Block &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Gold Block &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: GOLD_BLOCK
+
+prismarine:
+  name: '&cPrizmarin &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Prismarine &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: PRISMARINE
+
+end_stone:
+  name: '&cEnd Taşı &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9End Stone &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: END_STONE
+
+cactoos:
+  name: '&cKaktüs &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 5
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Cactoos &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: CACTUS
+
+emerald:
+  name: '&cZümrüt &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Emerald &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: EMERALD
+
+emerald_block:
+  name: '&cZümrüt Block &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 3
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Emerald Block &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: EMERALD_BLOCK
+
+sponge:
+  name: '&cSünger &eSpawner'
+  count: 1
+  spawn-range: 1
+  speed: 5
+  required-spawn-range: 10
+  max-entity-spawn: 5
+  spawner-item:
+    material: SPAWNER
+    display-name: '&9Sponge &eSpawner'
+  entity-type: DROPPED_ITEM
+  item:
+    material: SPONGE

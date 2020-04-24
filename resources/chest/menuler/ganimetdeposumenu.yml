@@ -1,0 +1,53 @@
+title: 'Ganimet Deposu'
+size: 54
+
+panes:
+  pane-1:
+    x: 0
+    y: 0
+    height: 1
+    length: 9
+  pane-2:
+    x: 0
+    y: 1
+    height: 5
+    length: 1
+  pane-3:
+    x: 8
+    y: 1
+    height: 5
+    length: 1
+  pane-4:
+    x: 0
+    y: 5
+    height: 1
+    length: 9
+  pane-ganimet:
+    x: 1
+    y: 1
+    height: 4
+    length: 7
+
+elements:
+  ganimet-element:
+    # buraya ne yazdığın önemsiz
+    material: GRASS
+    display-name: '&a%chest-name% Deposu'
+    lore:
+      - ''
+      - '&7Toplam %chest-amount% tane'
+      - '&7%chest-name% spawnerınız var.'
+      - ''
+      - '&7·Depoda ki miktar: &a%drop-amount%'
+      - '&7·Alınabilicek miktar: &a%available-amount% &7(&fShift + Sağ Tık&7)'
+      - ''
+      - '&aAlmak için sağ tıklayın!'
+      - '&aSatmak için farenizin orta tuşuna tıklayın!'
+  back-element:
+    x: 4
+    y: 0
+    material: ARROW
+    display-name: '&aGeri Dön'
+    lore:
+      - ''
+      - '&e&nGeri dönmek için tıkla!'

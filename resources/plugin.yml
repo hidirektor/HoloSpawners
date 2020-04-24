@@ -1,0 +1,15 @@
+name: SandikSpawner
+version: 24.04.2020
+main: io.github.portlek.spawner.Spawner
+authors: [SYN_T3SL4]
+depend:
+  - Vault
+
+commands:
+  itemsp:
+    aliases:
+      - itemspawner
+  sandiksp:
+    aliases:
+      - chestsp
+      - chestspawner

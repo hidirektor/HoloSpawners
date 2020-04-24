@@ -1,0 +1,46 @@
+title: 'Spawner Ayarları'
+size: 45
+
+panes:
+  main-pane:
+    x: 0
+    y: 0
+    height: 5
+    length: 9
+
+yetkili-elements:
+  x1: 2
+  y1: 2
+  x2: 3
+  y2: 2
+  x3: 4
+  y3: 2
+  x4: 5
+  y4: 2
+  x5: 6
+  y5: 2
+
+elements:
+  back-element:
+    x: 4
+    y: 4
+    material: ARROW
+    display-name: '&aGeri Dön'
+    lore:
+      - ''
+      - '&e&nGeri dönmek için tıkla!'
+  yetkili-olmayan-element:
+    material: PLAYER_HEAD
+    display-name: '&cBoş'
+    lore:
+      - '&7Yetkili eklemek için tıkla!'
+  yetkili-olan-element:
+    material: PLAYER_HEAD
+    display-name: '&a%player%'
+    lore:
+      - ''
+      - '&7Durum: &a✔ %durum%!'
+      - '&7Son görülme: &a%son-oyuna-giris-tarihi%'
+      - '&7Eklenme Tarihi: &a%eklenme-tarihi%'
+      - ''
+      - '&aYetkili çıkarmak için tıklayın!'
